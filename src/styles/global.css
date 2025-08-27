@@ -128,10 +128,3 @@ svg { max-width: 100%; height: auto; display: block; }
     transform: scale(.9);
   }
 }
-
-/* Mobile niceties */
-@media (max-width: 640px) {
-  .container { padding-left: 14px; padding-right: 14px; }
-  .card { border-radius: 16px; }
-  .pill { font-size: 10px; padding: 6px 10px; }
-}
