@@ -24,23 +24,32 @@ import Base from '../layouts/Base.astro';
   <!-- HERO -->
   <section class="card mt-4 p-5 sm:p-7 md:p-10">
     <p class="uppercase tracking-[.14em] text-[10px] sm:text-[11px] font-bold text-brand">Familiarity + Visibility = Calls</p>
-    <h2 class="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mt-3 bg-gradient-to-br from-brand to-brand-soft bg-clip-text text-transparent">
-      Every call is up for grabs.  Will they choose you?
-    </h2>
-    <p class="text-[15px] sm:text-[17px] md:text-[18px] text-slate-300/90 mt-3 sm:mt-4">
-      A simple framework for local service businesses to stop competing as strangers and start becoming the familiar, trusted choice.
-    </p>
+    
 
-    <div class="mt-5 sm:mt-6 flex flex-col sm:flex-row gap-3">
-      <a class="inline-flex justify-center items-center gap-2 font-bold no-underline rounded-xl px-4 py-3 bg-brand text-[#002033] shadow-soft border border-transparent hover:brightness-105 active:scale-[.99] transition w-full sm:w-auto"
-         href="https://www.linkedin.com/in/rohit-singh-atx/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-      <a class="inline-flex justify-center items-center gap-2 font-semibold no-underline rounded-xl px-4 py-3 bg-transparent text-slate-100 border border-slate-700/80 hover:bg-slate-800/40 transition w-full sm:w-auto"
-         href="mailto:rohit.singh@localiq.com">Email Rohit</a>
-    </div>
-  </section>
+<!-- Headline -->
+<h2 class="hero-title text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mt-3 bg-gradient-to-br from-brand to-brand-soft bg-clip-text text-transparent">
+  Every call is up for grabs.  Will they choose you?
+</h2>
+
+<p class="text-base md:text-[18px] text-slate-300/90 mt-4">
+  A simple framework for local service businesses to stop competing as strangers and start becoming the familiar, trusted choice.
+</p>
+
+<!-- Buttons wrapper -->
+<div class="cta-buttons flex flex-col sm:flex-row gap-3 mt-6">
+  <a class="inline-flex w-full sm:w-auto justify-center items-center gap-2 font-bold no-underline rounded-xl px-4 py-3 bg-brand text-[#002033] shadow-soft border border-transparent hover:brightness-105 active:scale-[.99] transition"
+     href="https://www.linkedin.com/in/rohit-singh-atx/" target="_blank" rel="noopener">
+     Connect on LinkedIn
+  </a>
+  <a class="inline-flex w-full sm:w-auto justify-center items-center gap-2 font-semibold no-underline rounded-xl px-4 py-3 bg-transparent text-slate-100 border border-slate-700/80 hover:bg-slate-800/40 transition"
+     href="mailto:rohit.singh@localiq.com">
+     Email Rohit
+  </a>
+</div>
+</section>
 
   <!-- TWO CARDS -->
-  <section class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-7 mt-6 sm:mt-8">
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-7 mt-8">
     <article class="card p-5 sm:p-6 md:p-8">
       <span class="pill">RELATIONAL MEDIA</span>
       <h3 class="text-base sm:text-lg font-semibold mt-2">Build familiarity <em>before</em> the search</h3>
@@ -69,7 +78,7 @@ import Base from '../layouts/Base.astro';
   </section>
 
   <!-- VENN -->
-  <section class="card mt-6 sm:mt-8 p-5 sm:p-6 md:p-8">
+<section class="venn card mt-8 p-6 md:p-8">
     <div class="grid place-items-center p-1 sm:p-2">
       <svg class="w-full max-w-[620px] md:max-w-[680px] h-auto" viewBox="0 0 680 260" role="img" aria-labelledby="vennTitle vennDesc">
         <title id="vennTitle">Relational + Directional = Familiar Choice</title>
