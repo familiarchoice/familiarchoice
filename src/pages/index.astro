@@ -2,10 +2,10 @@
 import Base from '../layouts/Base.astro';
 ---
 <Base>
-  <header class="pt-7 pb-2">
+  <header class="pt-5 pb-1">
     <a href="#top" class="flex items-center gap-3 no-underline text-slate-100">
-      <span class="w-11 h-11 rounded-xl bg-gradient-to-br from-brand to-brand-soft grid place-items-center shadow-soft">
-        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <span class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand to-brand-soft grid place-items-center shadow-soft">
+        <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <defs>
             <linearGradient id="g1" x1="0" y1="0" x2="26" y2="26" gradientUnits="userSpaceOnUse">
               <stop stop-color="#22d3ee"/>
@@ -17,160 +17,94 @@ import Base from '../layouts/Base.astro';
           <path d="M7 13.2l3.3 3.3L19 8.8" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </span>
-      <h1 class="m-0 text-base tracking-wide">The Familiar Choice Method™</h1>
+      <h1 class="m-0 text-sm sm:text-base tracking-wide">The Familiar Choice Method™</h1>
     </a>
   </header>
 
-  <section class="card mt-4 p-6 sm:p-8 md:p-10">
-  <p class="uppercase tracking-[.14em] text-[10px] sm:text-[11px] font-bold text-brand">
-    Familiarity + Visibility = Calls
-  </p>
-
-  <!-- Fluid headline: clamp(min, preferred, max) -->
-  <h2 class="font-extrabold leading-tight mt-3
-             text-[clamp(26px,7vw,52px)]
-             bg-gradient-to-br from-brand to-brand-soft bg-clip-text text-transparent">
-    Every call is up for grabs.  Will they choose you?
-  </h2>
-
-  <p class="text-[15px] sm:text-[17px] text-slate-300/90 mt-3">
-    A simple framework for local service businesses to stop competing as strangers and start becoming the familiar, trusted choice.
-  </p>
-
-  <div class="flex flex-wrap gap-3 mt-5">
-    <a class="inline-flex items-center gap-2 font-bold no-underline rounded-xl px-4 py-2.5
-               bg-brand text-[#002033] shadow-soft border border-transparent hover:brightness-105 active:scale-[.99] transition"
-       href="https://www.linkedin.com/in/rohit-singh-atx/" target="_blank" rel="noopener">
-      Connect on LinkedIn
-    </a>
-    <a class="inline-flex items-center gap-2 font-semibold no-underline rounded-xl px-4 py-2.5
-               bg-transparent text-slate-100 border border-slate-700/80 hover:bg-slate-800/40 transition"
-       href="mailto:rohit.singh@localiq.com">
-      Email Rohit
-    </a>
-  </div>
-</section>
-
-<section class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-7 mt-6 sm:mt-8">
-  <article class="card p-5 sm:p-6">
-    <span class="pill">RELATIONAL MEDIA</span>
-    <h3 class="text-base sm:text-lg font-semibold mt-2">Build familiarity <em>before</em> the search</h3>
-    <ul class="list-disc ml-5 mt-2 space-y-2 text-[15px]">
-      <li>Branding, social, YouTube, radio, billboards, retargeting</li>
-      <li>Creates repeated exposure → recognition → trust</li>
-      <li>Reduces perceived risk and makes you feel like a safe choice</li>
-    </ul>
-    <div class="mt-3 p-3 rounded-xl border border-amber-500/30 bg-amber-400/10 text-amber-100 text-[14px]">
-      <strong>Goal:</strong> Move from unknown → familiar → trusted.
-    </div>
-  </article>
-
-  <article class="card p-5 sm:p-6">
-    <span class="pill">DIRECTIONAL MEDIA</span>
-    <h3 class="text-base sm:text-lg font-semibold mt-2">Capture demand <em>at</em> the search</h3>
-    <ul class="list-disc ml-5 mt-2 space-y-2 text-[15px]">
-      <li>Google Ads (PPC), Local SEO, call extensions</li>
-      <li>Show up when customers actively search (e.g., “AC repair near me”)</li>
-      <li>Turns familiarity into calls, appointments, and revenue</li>
-    </ul>
-    <div class="mt-3 p-3 rounded-xl border border-sky-500/30 bg-sky-400/10 text-sky-100 text-[14px]">
-      <strong>Rule of thumb:</strong> Start here if budget is tight; add Relational to tip the scales.
-    </div>
-  </article>
-</section>
-
-  
-  <section class="card mt-6 sm:mt-8 p-5 sm:p-6 md:p-8">
-  <div class="grid place-items-center p-1">
-    <svg viewBox="0 0 680 260" role="img" aria-labelledby="vennTitle vennDesc"
-         class="w-full max-w-[520px] sm:max-w-[620px] h-auto">
-      <title id="vennTitle">Relational + Directional = Familiar Choice</title>
-      <desc id="vennDesc">Two overlapping circles labeled Relational and Directional; the overlap is labeled Familiar Choice.</desc>
-      <defs>
-        <linearGradient id="rel" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#22d3ee" stop-opacity=".18"/>
-          <stop offset="1" stop-color="#22d3ee" stop-opacity=".08"/>
-        </linearGradient>
-        <linearGradient id="dir" x1="1" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#60a5fa" stop-opacity=".18"/>
-          <stop offset="1" stop-color="#60a5fa" stop-opacity=".08"/>
-        </linearGradient>
-      </defs>
-
-      <circle cx="230" cy="130" r="100" fill="url(#rel)" stroke="#22d3ee" stroke-opacity=".35" stroke-width="2"/>
-      <circle cx="450" cy="130" r="100" fill="url(#dir)" stroke="#60a5fa" stroke-opacity=".35" stroke-width="2"/>
-
-      <!-- Smaller labels on mobile -->
-      <text x="230" y="130" text-anchor="middle" fill="#a8b3cf"
-            font-size="13" class="sm:!text-[16px]" font-family="Inter,system-ui">RELATIONAL</text>
-      <text x="450" y="130" text-anchor="middle" fill="#a8b3cf"
-            font-size="13" class="sm:!text-[16px]" font-family="Inter,system-ui">DIRECTIONAL</text>
-
-      <rect x="290" y="108" rx="10" ry="10" width="100" height="44" fill="#0b1222" stroke="#1f2937"/>
-      <text x="340" y="135" text-anchor="middle" fill="#e5e7eb"
-            font-size="12" class="sm:!text-[14px]" font-weight="700" font-family="Inter,system-ui">
-        FAMILIAR CHOICE
-      </text>
-    </svg>
-
-    <p class="text-center text-slate-300/80 text-[13px] sm:text-sm mt-2">
-      Relational builds trust before the search.  Directional captures demand at the search.  Together, they make you the familiar choice.
+  <!-- HERO -->
+  <section class="card mt-4 p-5 sm:p-7 md:p-10">
+    <p class="uppercase tracking-[.14em] text-[10px] sm:text-[11px] font-bold text-brand">Familiarity + Visibility = Calls</p>
+    <h2 class="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mt-3 bg-gradient-to-br from-brand to-brand-soft bg-clip-text text-transparent">
+      Every call is up for grabs.  Will they choose you?
+    </h2>
+    <p class="text-[15px] sm:text-[17px] md:text-[18px] text-slate-300/90 mt-3 sm:mt-4">
+      A simple framework for local service businesses to stop competing as strangers and start becoming the familiar, trusted choice.
     </p>
-  </div>
-</section>
 
-<section class="card mt-6 sm:mt-7 p-5 sm:p-6">
-  <h3 class="text-base sm:text-lg font-semibold">About Rohit Singh</h3>
-  <p class="mt-1 text-slate-200 text-[15px]">
-    For 15 years, I’ve helped local service businesses understand a simple truth: every call is up for grabs…
-  </p>
-  <p class="mt-2 text-[15px]">
-    Want to apply it to your business? <a class="link" href="https://www.linkedin.com/in/rohit-singh-atx/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-    or <a class="link" href="mailto:rohit.singh@localiq.com">email me</a>.
-  </p>
-</section>
+    <div class="mt-5 sm:mt-6 flex flex-col sm:flex-row gap-3">
+      <a class="inline-flex justify-center items-center gap-2 font-bold no-underline rounded-xl px-4 py-3 bg-brand text-[#002033] shadow-soft border border-transparent hover:brightness-105 active:scale-[.99] transition w-full sm:w-auto"
+         href="https://www.linkedin.com/in/rohit-singh-atx/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      <a class="inline-flex justify-center items-center gap-2 font-semibold no-underline rounded-xl px-4 py-3 bg-transparent text-slate-100 border border-slate-700/80 hover:bg-slate-800/40 transition w-full sm:w-auto"
+         href="mailto:rohit.singh@localiq.com">Email Rohit</a>
+    </div>
+  </section>
 
-  
-  <script>
-  // Hero pointer glow
-  const glow = document.getElementById('heroGlow');
-  if (glow) {
-    const hero = glow.parentElement;
-    hero.addEventListener('mousemove', (e) => {
-      const r = hero.getBoundingClientRect();
-      const x = e.clientX - r.left - 260; // center the glow
-      const y = e.clientY - r.top - 260;
-      glow.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-    });
-    hero.addEventListener('mouseleave', () => {
-      glow.style.transform = 'translate3d(0,0,0)';
-    });
-  }
+  <!-- TWO CARDS -->
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-7 mt-6 sm:mt-8">
+    <article class="card p-5 sm:p-6 md:p-8">
+      <span class="pill">RELATIONAL MEDIA</span>
+      <h3 class="text-base sm:text-lg font-semibold mt-2">Build familiarity <em>before</em> the search</h3>
+      <ul class="list-disc ml-5 mt-2 space-y-2 text-sm sm:text-[15px]">
+        <li>Branding, social, YouTube, radio, billboards, retargeting</li>
+        <li>Creates repeated exposure → recognition → trust</li>
+        <li>Reduces perceived risk and makes you feel like a safe choice</li>
+      </ul>
+      <div class="mt-3 p-3 rounded-xl border border-amber-500/30 bg-amber-400/10 text-amber-100 text-sm">
+        <strong>Goal:</strong> Move from unknown → familiar → trusted.
+      </div>
+    </article>
 
-  // Scroll reveal
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) entry.target.classList.add('revealed');
-    });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+    <article class="card p-5 sm:p-6 md:p-8">
+      <span class="pill">DIRECTIONAL MEDIA</span>
+      <h3 class="text-base sm:text-lg font-semibold mt-2">Capture demand <em>at</em> the search</h3>
+      <ul class="list-disc ml-5 mt-2 space-y-2 text-sm sm:text-[15px]">
+        <li>Google Ads (PPC), Local SEO, call extensions</li>
+        <li>Show up when customers actively search (e.g., “AC repair near me”)</li>
+        <li>Turns familiarity into calls, appointments, and revenue</li>
+      </ul>
+      <div class="mt-3 p-3 rounded-xl border border-sky-500/30 bg-sky-400/10 text-sky-100 text-sm">
+        <strong>Rule of thumb:</strong> Start here if budget is tight; add Relational to tip the scales.
+      </div>
+    </article>
+  </section>
 
-  // Venn hover pulse
-  const venn = document.getElementById('venn');
-  if (venn) {
-    venn.addEventListener('mousemove', (e) => {
-      const box = venn.getBoundingClientRect();
-      const cx = box.left + box.width / 2;
-      const cy = box.top + box.height / 2;
-      const dx = e.clientX - cx;
-      const dy = e.clientY - cy;
-      const dist = Math.min(Math.hypot(dx, dy) / (box.width / 2), 1);
-      const glow = venn.querySelector('circle[r="72"]');
-      if (glow) glow.setAttribute('opacity', String(0.35 + (1 - dist) * 0.25));
-    });
-  }
-  </script>
+  <!-- VENN -->
+  <section class="card mt-6 sm:mt-8 p-5 sm:p-6 md:p-8">
+    <div class="grid place-items-center p-1 sm:p-2">
+      <svg class="w-full max-w-[620px] md:max-w-[680px] h-auto" viewBox="0 0 680 260" role="img" aria-labelledby="vennTitle vennDesc">
+        <title id="vennTitle">Relational + Directional = Familiar Choice</title>
+        <desc id="vennDesc">Two overlapping circles labeled Relational and Directional; the overlap is labeled Familiar Choice.</desc>
+        <defs>
+          <linearGradient id="rel" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#22d3ee" stop-opacity=".18"/>
+            <stop offset="1" stop-color="#22d3ee" stop-opacity=".08"/>
+          </linearGradient>
+          <linearGradient id="dir" x1="1" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#60a5fa" stop-opacity=".18"/>
+            <stop offset="1" stop-color="#60a5fa" stop-opacity=".08"/>
+          </linearGradient>
+        </defs>
+        <circle cx="230" cy="130" r="100" fill="url(#rel)" stroke="#22d3ee" stroke-opacity=".35" stroke-width="2"/>
+        <circle cx="450" cy="130" r="100" fill="url(#dir)" stroke="#60a5fa" stroke-opacity=".35" stroke-width="2"/>
+        <text x="230" y="130" text-anchor="middle" fill="#a8b3cf" font-size="16" font-family="Inter,system-ui">RELATIONAL</text>
+        <text x="450" y="130" text-anchor="middle" fill="#a8b3cf" font-size="16" font-family="Inter,system-ui">DIRECTIONAL</text>
+        <rect x="290" y="108" rx="10" ry="10" width="100" height="44" fill="#0b1222" stroke="#1f2937"/>
+        <text x="340" y="135" text-anchor="middle" fill="#e5e7eb" font-weight="700" font-family="Inter,system-ui">FAMILIAR CHOICE</text>
+      </svg>
+      <p class="text-center text-slate-300/80 text-xs sm:text-sm mt-2">
+        Relational builds trust before the search.  Directional captures demand at the search.  Together, they make you the familiar choice.
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="card mt-6 sm:mt-7 p-5 sm:p-6">
+    <h3 class="text-base sm:text-lg font-semibold">About Rohit Singh</h3>
+    <p class="mt-1 text-slate-200 text-sm sm:text-[15px]">
+      For 15 years, I’ve helped local service businesses understand a simple truth: every call is up for grabs.  When life triggers a search, customers don’t always pick the “best” provider — they pick the one that feels familiar and safe.  That’s what <strong>The Familiar Choice Method™</strong> is built to create.
+    </p>
+    <p class="mt-2 text-sm sm:text-[15px]">
+      Want to apply it to your business? <a class="link" href="https://www.linkedin.com/in/rohit-singh-atx/" target="_blank" rel="noopener">Connect on LinkedIn</a> or <a class="link" href="mailto:rohit.singh@localiq.com">email me</a>.
+    </p>
+  </section>
 </Base>
-```
-
----
