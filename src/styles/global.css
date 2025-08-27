@@ -19,7 +19,9 @@ body {
   background: radial-gradient(1200px 800px at 80% -10%, #102246 10%, var(--bg) 60%);
 }
 
-.container { @apply max-w-5xl mx-auto px-4 sm:px-5; }
+.container {
+  @apply max-w-5xl mx-auto px-5;
+}
 
 .card {
   background: var(--card);
