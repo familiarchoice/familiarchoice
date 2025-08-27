@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #0f172a;      /* slate-900 */
+  --card: #0b1222;    /* deeper slate */
+  --text: #e5e7eb;    /* gray-200 */
+  --muted: #a8b3cf;   /* desaturated */
+  --border: #1f2937;  /* slate-800 */
+}
+
+html, body { height: 100%; }
+body {
+  @apply antialiased leading-relaxed selection:bg-sky-400/20 selection:text-sky-100;
+  color: var(--text);
+  background: radial-gradient(1200px 800px at 80% -10%, #102246 10%, var(--bg) 60%);
+}
+
+.container { @apply max-w-5xl mx-auto px-5; }
+.card { background: var(--card); border:1px solid var(--border); border-radius: 1.25rem; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+.pill { @apply inline-flex items-center gap-2 rounded-full text-xs font-semibold tracking-wide uppercase px-3 py-1.5 border; border-color: var(--border); background: rgba(2,6,23,.5); color: #a8b3cf; letter-spacing: .06em; }
+.link { @apply text-sky-300 hover:text-sky-200 underline-offset-2 hover:underline; }
+
+/* Prose defaults for future articles */
+.prose-invert {
+  --tw-prose-body: #e5e7eb;
+  --tw-prose-headings: #ffffff;
+  --tw-prose-links: #7dd3fc;
+  --tw-prose-bold: #ffffff;
+  --tw-prose-quotes: #cbd5e1;
+}
