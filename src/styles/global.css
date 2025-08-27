@@ -95,6 +95,3 @@ body {
   opacity: .55;
   transition: opacity .3s ease;
 }
-
-svg { max-width: 100%; height: auto; display: block; }
-
