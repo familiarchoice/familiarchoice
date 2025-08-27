@@ -98,33 +98,3 @@ body {
 
 svg { max-width: 100%; height: auto; display: block; }
 
-/* ---------- Mobile polish (<= 640px) ---------- */
-@media (max-width: 640px) {
-  /* Headline breathes better on phones */
-  .hero-title {
-    letter-spacing: -0.01em;
-    line-height: 1.2;
-  }
-
-  /* Make CTAs friendly on thumbs */
-  .cta-buttons a {
-    width: 100%;
-  }
-
-  /* Slightly tighter cards on phones */
-  .card {
-    padding: 1rem !important;
-  }
-
-  /* Venn diagram scales and label doesn’t overwhelm */
-  .venn svg {
-    max-width: 420px;
-  }
-  .venn text {
-    font-size: 12px !important;
-  }
-  .venn .pill,
-  .venn [data-pill] {
-    transform: scale(.9);
-  }
-}
