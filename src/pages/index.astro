@@ -27,16 +27,18 @@ import Base from '../layouts/Base.astro';
     
 
 <!-- Headline -->
-<h2 class="hero-title text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mt-3 bg-gradient-to-br from-brand to-brand-soft bg-clip-text text-transparent">
+<h2 class="text-[32px] leading-tight md:text-5xl md:leading-[1.15] font-extrabold mt-3
+           bg-gradient-to-br from-brand to-brand-soft bg-clip-text text-transparent">
   Every call is up for grabs.  Will they choose you?
 </h2>
+
 
 <p class="text-base md:text-[18px] text-slate-300/90 mt-4">
   A simple framework for local service businesses to stop competing as strangers and start becoming the familiar, trusted choice.
 </p>
 
 <!-- Buttons wrapper -->
-<div class="cta-buttons flex flex-col sm:flex-row gap-3 mt-6">
+<div class="flex flex-col sm:flex-row gap-3 mt-5 sm:mt-6">
   <a class="inline-flex w-full sm:w-auto justify-center items-center gap-2 font-bold no-underline rounded-xl px-4 py-3 bg-brand text-[#002033] shadow-soft border border-transparent hover:brightness-105 active:scale-[.99] transition"
      href="https://www.linkedin.com/in/rohit-singh-atx/" target="_blank" rel="noopener">
      Connect on LinkedIn
@@ -78,9 +80,11 @@ import Base from '../layouts/Base.astro';
   </section>
 
   <!-- VENN -->
-<section class="venn card mt-8 p-6 md:p-8">
-    <div class="grid place-items-center p-1 sm:p-2">
-      <svg class="w-full max-w-[620px] md:max-w-[680px] h-auto" viewBox="0 0 680 260" role="img" aria-labelledby="vennTitle vennDesc">
+<section class="card mt-8 p-6 md:p-8">
+  <div class="grid place-items-center p-2 max-w-[520px] mx-auto md:max-w-none">
+      <svg viewBox="0 0 680 260" role="img" aria-labelledby="vennTitle vennDesc"
+     class="max-w-[460px] md:max-w-full w-full h-auto">
+
         <title id="vennTitle">Relational + Directional = Familiar Choice</title>
         <desc id="vennDesc">Two overlapping circles labeled Relational and Directional; the overlap is labeled Familiar Choice.</desc>
         <defs>
